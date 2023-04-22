@@ -6,7 +6,7 @@
 .header{
     min-height:100vh;
     width:100%;
-    background-image:url(../sahar/images/section1.jpg);
+    background-image:url(images/section1.jpg);
     background-position:center;
     background-size:cover;
     position:relative;
@@ -141,7 +141,7 @@ nav .fa {
     }
 /*-----------------------------services---------------*/
     .Section{
-        background-image: url('../sahar/images/section2.webp');
+        background-image: url('images/section2.webp');
         background-size: cover;
     }
     .services-section {
@@ -200,7 +200,7 @@ h3{
 }
         /*--------------------------------about------------------------------*/
         .about {
-            background-image: url("..//sahar/images/section2.jpg");
+            background-image: url("sahar/images/section2.jpg");
             background-repeat: none;
             
         }
@@ -226,7 +226,7 @@ h3{
     .contact {
         text-align: center;
         align-items: center;
-        background-image: url('../sahar/images/section4.jpg');
+        background-image: url('images/section4.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         margin-bottom: 0;
