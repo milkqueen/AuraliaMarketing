@@ -202,6 +202,7 @@ h3{
         .about {
             background-image: url('images/section2.jpg');
             background-repeat: none;
+	    background-size: cover;
             
         }
         
