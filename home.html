@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content ="with=device-width, initial-scale=1.0">
+    <title> Auralia Marketing</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,300;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body> 
+<section class="header">
+ <nav>
+    <a href="webpage.html"><img src="../sahar/images/logo.jpg"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+    
+ <div class="text-box">
+    <h5> Web Development You Can Trust</h5>
+    <p> Websites for any business with developers you can trust, we promise to aid you in your business growth. Get in touch to find out more.</p>
+    <a href="contact.html" target="_blank"><button class="btn">Learn More</button></a>
+  </div>
+  
+    
+</section>
+
+<!-----------------------------new section------------------------------>
+<section class="Section">
+    <div class="services-section">
+        <div class="services-box">
+          <h2>SERVICES</h2>
+          <h3>Have an idea that you’re trying to bring to life online? We bring a wide array of professional services in web development, design, and project management to the work we’re involved with. We can manage it all while maintaining high standards of quality. Call today and let us transform your online presence into something exceptional.</h3>
+        </div>
+        
+        <div class="projects-box">
+          <h2>PROJECTS</h2>
+          <h3>We provide clients with a wide range of web development services that help bring their vision to life. Our work is done with the utmost attention to detail, and is focused on a beautiful, fully functional, and user friendly final result. Check out a few samples of our work below and see what we can do for you today.</h3>
+        </div>
+        
+        <div class="clients-box">
+          <h2>CLIENTS</h2>
+          <h3>Gateau Jardin had a specific vision in mind when we started working together. Through our unique and innovative development services, we managed to bring this vision to life by developing a brand new design and user experience.</h3>
+        </div>
+      </div>
+</section>
+<!----------------------------------about----------------------------------------->
+<section class="about">
+<div class="text-box2">
+    <h5>ABOUT</h5>
+    <p> Auralia Marketing is your number one source for web development innovations and online solutions in London. We’ve provided businesses and individuals with a wide range of services, actively listening to their needs and customizing our work to their unique circumstances. Our passion is creating beautiful, functional, and engaging websites that work and look great on every device and platform. Get in touch and see how we can help you today.</p>
+</div>
+    
+</section>
+<!------------------------contact us section------------------------------------->
+<section class="contact">
+    <div class="get-in-touch">
+      <h1>Get In Touch Today!</h1>
+    </div>
+    <div class="form">
+      <form class = "contact-form" action="contactform.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <label for="name">Phone:</label>
+        <input type="text"  name="phone" placeholder="Enter your phone number" required>
+        <label for="message">Message:</label>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter your message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+</body>
+<!-------------footer---------------->
+
+    <footer class="footer">
+    <p4 class="footer-text">© 2023 Auralia Marketing. All Rights Reserved.</p4>
+    <nav class="footer-links">
+      <a href="https://www.instagram.com/gateau_jardin/">Instagram</a>
+      <a href="http://wwww.gateaujardin.com/contact/">Contact Us</a>
+    </nav>
+  </footer>
+
+  <!--------Javascript for Toggle Menu -------> 
+  <script>
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu(){
+          navLinks.style.display = "block";
+      }
+       function hideMenu(){
+          navLinks.style.display = "none";
+       }
+  </script>   
+  </html>
