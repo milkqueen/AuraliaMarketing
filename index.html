@@ -67,19 +67,22 @@
       <h1>Get In Touch Today!</h1>
     </div>
     <div class="form">
-      <form class = "contact-form" action="contactform.php" method="POST">
+      <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSe09On2sLswZcd02fQVSKTZUP4RcYIbNdz1nGrUWFoIdtuXwA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
         <label for="name">Name:</label>
-        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="text" name="entry.505641071" id="entry.505641071"placeholder="Enter your name" required>
         <label for="email">Email:</label>
-        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="email" name="entry.1075180487" id="entry.1075180487" placeholder="Enter your email" required>
         <label for="name">Phone:</label>
-        <input type="text"  name="phone" placeholder="Enter your phone number" required>
+        <input type="text"  name="entry.1479606408" id="entry.1479606408" placeholder="Enter your phone number" required>
         <label for="message">Message:</label>
-        <textarea rows="5" cols="60" name="message" placeholder="Enter your message" required></textarea>
+        <textarea rows="5" cols="60" name="entry.1703113867" id="entry.1703113867" placeholder="Enter your message" required></textarea>
         <button type="submit">Send</button>
       </form>
     </div>
   </section>
+    
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    
 </body>
 <!-------------footer---------------->
 
@@ -102,4 +105,5 @@
           navLinks.style.display = "none";
        }
   </script>   
+  <!---------------------javascript for contact form----------------------------------->
   </html>
