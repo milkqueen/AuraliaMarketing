@@ -252,7 +252,7 @@ h2 {
 .hexagon {
   position: relative;
   width: 200px;
-  height: 115.47px;
+  height: 200px;
   margin: 0 auto;
   background-color: #ddd;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
