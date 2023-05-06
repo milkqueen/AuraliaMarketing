@@ -236,8 +236,9 @@ h3{
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 26px;
   margin-bottom: 40px;
+  color:white;
 }
 
 .row {
@@ -251,8 +252,8 @@ h2 {
 
 .hexagon {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 350px;
   margin: 0 auto;
   background-color: #ddd;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
