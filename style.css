@@ -220,7 +220,12 @@ h3{
             text-align: center;
             color:rgb(55, 51, 52)
         }
-
+p2 {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
       
 /*------------------------clients-------------------------------------------------------*/
 
