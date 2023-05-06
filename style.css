@@ -225,7 +225,7 @@ h3{
 /*------------------------clients-------------------------------------------------------*/
 
 .clients {
-  background-image: url("clients.jpg");
+  background-image:url('clients.jpg');
   padding: 50px 0;
 }
 
